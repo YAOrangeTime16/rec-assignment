@@ -104,18 +104,18 @@ const styles = theme => ({
 
 class Tile extends Component {
   render(){
-    const { classes, allGames, filteredGames } = this.props;
+    const { classes, allGames, filteredGames, openGame, closeGame } = this.props;
     const gameToRender = filteredGames.length !==0 ? filteredGames : allGames;
     return (
       <div className={classes.root}>
-      
-      { 
+      {
         gameToRender.slice(0, 96).map(game => (
           <Grow in style={{ transformOrigin: '0 0 100%' }} key={game.id}>
           <ButtonBase
             focusRipple
             className={classes.image}
             focusVisibleClassName={classes.focusVisible}
+            onClick={openGame}
           >
             <span
               className={classes.imageSrc}

@@ -8,9 +8,9 @@ import Select from '@material-ui/core/Select';
 const styles = theme => ({
   formControl: {
     margin: theme.spacing.unit,
-    minWidth: 100,
+    minWidth: 200,
     [theme.breakpoints.up('lg')]: {
-      minWidth: 200,
+      minWidth: 300,
     }
   },
 });
@@ -62,7 +62,7 @@ class FilterByProviderBar extends Component {
             }}
           >
             <MenuItem value="All">
-              <em>All</em>
+              <em>ALL</em>
             </MenuItem>
             {this._renderProvidersList()}
           </Select>

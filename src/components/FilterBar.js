@@ -29,7 +29,7 @@ class FilterBar extends Component {
           value={this.state.value}
           onChange={this._handleChange}
           indicatorColor="primary"
-          fullWidth
+          centered
         >
           <Tab label="All" onClick={filter} />
           <Tab label="Slots" onClick={()=>filter('slots')}/>
