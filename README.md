@@ -2,20 +2,20 @@
 This assignment is intended to be the foundation for a discussion with a coworker at Mr Green.
 Your job is to create the first iteration of a casino lobby.     
 ## Iteration #1 (16 hrs)     
-### Aim for the first iteration
-To implement basic functionalities and UI         
+### The aim for the first iteration
+To implement basic functionalities and user interface       
      
 ### Functions   
-* It should show a list of games     
-* Filter functionalities (`gameProvider` & `gameCollectionIds`)     
-      * Make sure those filters work      
-      * The filters should be represented on the user interface    
-* It should be unit tested (basic level)      
-      * Set up test environment      
-      * Run basic tests     
+* It should show a list of games
+* Filter functionalities (`gameProvider` & `gameCollectionIds`)
+	* Make sure those filters work
+	* The filters should be represented on the user interface
+* It should be unit tested (basic level)
+	* Set up test environment
+	* Run basic tests    
      
 ### Designs      
-* Each game should be represented by a game tile     
+* Each game should be represented by a game tile
 * The game tile should include:
 	* A background image
 	* A link to start the game    
@@ -66,7 +66,7 @@ If you have not installed `json-server` to your machine, follow [their instructi
 
 Then you are ready to start the app on any other port number than 3000;
 ```bash
-  $ npm start  #'Would you like to run the app on another port instead?' Y
+  $ npm start  #'Would you like to run the app on another port instead?' -> Y
 ```
 or you can choose a port number and run the app by;
 ```bash
